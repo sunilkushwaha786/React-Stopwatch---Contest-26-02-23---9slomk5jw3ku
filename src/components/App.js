@@ -6,6 +6,12 @@ const App = () => {
   const [currentTime, setCurrentTime] = useState(0);
   const [laps, setLaps] = useState([]);
 
+  const useRef(() => {
+    let intervalRef;
+    if (isRunning) {
+      intervalRef = setInterval()
+    }
+  })
   return (
     <div id="main">
       <section>
